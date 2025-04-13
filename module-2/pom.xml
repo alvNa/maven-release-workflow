@@ -3,19 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.alvna</groupId>
-  <artifactId>demo-project</artifactId>
+  <artifactId>module-2</artifactId>
   <version>0.1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
-  <name>demo-project</name>
+  <name>module-2</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-  <modules>
-    <module>module-1</module>
-    <module>module-2</module>
-  </modules>
 
 </project>

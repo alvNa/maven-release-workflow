@@ -3,7 +3,7 @@
 
   <groupId>org.alvna</groupId>
   <artifactId>demo-project</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>demo-project</name>
@@ -18,14 +18,6 @@
     <url>https://github.com/alvNa/maven-release-workflow.git</url>
     <tag>HEAD</tag>
   </scm>
-
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>7066a454649a-releases</name>
-      <url>http://localhost/artifactory/libs-release</url>
-    </repository>
-  </distributionManagement>
 
   <modules>
     <module>module-1</module>

@@ -14,7 +14,9 @@
 
   <scm>
     <connection>scm:git:https://github.com/alvNa/maven-release-workflow.git</connection>
-    <tag>release/0.1</tag>
+    <developerConnection>scm:git:https://github.com/alvNa/maven-release-workflow.git</developerConnection>
+    <url>https://github.com/alvNa/maven-release-workflow.git</url>
+    <tag>HEAD</tag>
   </scm>
 
   <modules>

@@ -2,10 +2,13 @@
 
 Release Prepare:
 ```
-mvn org.apache.maven.plugins:maven-release-plugin:3.1.1:prepare -B -DautoVersionSubmodules=true
+mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:prepare -B -DautoVersionSubmodules=true
 ```
 
 Release Perform:
+```
+mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:perform -B -DautoVersionSubmodules=true
+```
 
 Release Branches:
 ```

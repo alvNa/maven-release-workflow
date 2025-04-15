@@ -19,6 +19,14 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>7066a454649a-releases</name>
+      <url>http://localhost/artifactory/libs-release</url>
+    </repository>
+  </distributionManagement>
+
   <modules>
     <module>module-1</module>
     <module>module-2</module>

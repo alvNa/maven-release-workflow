@@ -8,7 +8,7 @@ mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:prepare 
 
 Release Perform:
 ```
-mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:perform -B -DautoVersionSubmodules=true \
+mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:perform -DautoVersionSubmodules=true \
 -Dusername=alvNa -Dpassword=
 ```
 

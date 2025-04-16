@@ -20,9 +20,14 @@
   </scm>
 
   <distributionManagement>
+<!--    <repository>-->
+<!--      <id>central</id>-->
+<!--      <name>libs-release</name>-->
+<!--      <url>http://localhost/artifactory/libs-release</url>-->
+<!--    </repository>-->
     <repository>
       <id>central</id>
-      <name>libs-release</name>
+      <name>7066a454649a-releases</name>
       <url>http://localhost/artifactory/libs-release</url>
     </repository>
   </distributionManagement>

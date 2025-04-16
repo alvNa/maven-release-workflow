@@ -29,12 +29,12 @@ mvn org.apache.maven.plugins:maven-release-plugin:3.1.1:update-versions -DautoVe
 
 Release Rollback:
 ```
-mvn release:rollback
+mvn org.apache.maven.plugins:maven-release-plugin:3.1.1:rollback
 ```
 
 Release Clean:
 ```
-mvn release:clean
+mvn org.apache.maven.plugins:maven-release-plugin:3.1.1:clean
 ```
 
 

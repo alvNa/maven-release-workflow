@@ -3,13 +3,16 @@
 Release Prepare:
 ```
 mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:prepare -B -DautoVersionSubmodules=true \
-    -Dusername=alvNa -Dpassword=
+-DprojectVersionPolicyId=SemVerVersionPolicy \
+-Dusername=alvNa -Dpassword=
 ```
 
 Release Perform:
 ```
 mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:perform -DautoVersionSubmodules=true \
--Dusername=alvNa -Dpassword=
+-DprojectVersionPolicyId=SemVerVersionPolicy \
+-Dusername=alvNa -Dpassword= \
+-DdryRun=true
 ```
 
 Release Branches:

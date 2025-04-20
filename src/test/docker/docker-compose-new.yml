@@ -11,7 +11,7 @@ services:
       - POSTGRES_USER=artifactory
       - POSTGRES_PASSWORD=password
     volumes:
-      - /data/postgresql:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
     restart: always
     ulimits:
       nproc: 65535
@@ -28,7 +28,7 @@ services:
     links:
       - postgresql
     volumes:
-      - /data/artifactory:/var/opt/jfrog/artifactory
+      - artifactory_data:/var/opt/jfrog/artifactory
     environment:
       - DB_TYPE=postgresql
       # The following must match the POSTGRES_USER and POSTGRES_PASSWORD values passed to PostgreSQL
@@ -42,3 +42,8 @@ services:
       nofile:
         soft: 32000
         hard: 40000
+
+volumes:
+  postgres_data:
+  artifactory_data:
+  artifactory_config:

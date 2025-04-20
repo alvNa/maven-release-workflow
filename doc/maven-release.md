@@ -4,15 +4,14 @@ Release Prepare:
 ```
 mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:prepare -B -DautoVersionSubmodules=true \
 -DprojectVersionPolicyId=SemVerVersionPolicy \
--Dusername=alvNa -Dpassword=
+-Dusername=alvNa -Dpassword=GITHUB_TOKEN
 ```
 
 Release Perform:
 ```
 mvn -s settings.xml org.apache.maven.plugins:maven-release-plugin:3.1.1:perform -DautoVersionSubmodules=true \
 -DprojectVersionPolicyId=SemVerVersionPolicy \
--Dusername=alvNa -Dpassword= \
--DdryRun=true
+-Dusername=alvNa -Dpassword=GITHUB_TOKEN 
 ```
 
 Release Branches:
